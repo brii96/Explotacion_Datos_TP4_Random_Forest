@@ -1,0 +1,12 @@
+Error in randomForest.default(x = chagas[training.ids, 4:7], y = chagas[training.ids,  : 
+  length of response must be the same as predictors
+In addition: Warning message:
+In randomForest.default(x = chagas[training.ids, 4:7], y = chagas[training.ids,  :
+  The response has five or fewer unique values.  Are you sure you want to do regression?
+
+
+Error que dio porque en principio no se tenia un Dataframe puro
+
+
+-------------------------------------------
+La primera matriz de Confusion muestra el resultado de elaborar con una SEMILLA(2018); 70% TRAIN; 500ARBOLES
